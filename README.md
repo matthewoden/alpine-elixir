@@ -1,4 +1,4 @@
-# Elixir on Alpine Linux
+# Elixir on Alpine Linux (ARM-32-v6)
 
 This Dockerfile provides a full installation of Erlang and Elixir on Alpine, intended for running releases,
 so it has no build tools installed. The Erlang installation is provided so one can avoid cross-compiling
