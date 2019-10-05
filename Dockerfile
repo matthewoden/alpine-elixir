@@ -1,4 +1,4 @@
-FROM matthewoden/alpine-arm32v6-erlang:22.0.4
+FROM matthewoden/alpine-arm32v6-erlang:22.0.7
 
 LABEL maintainer="Matthew Oden Potter <heymatthewoden@gmail.com>"
 
@@ -6,8 +6,8 @@ LABEL maintainer="Matthew Oden Potter <heymatthewoden@gmail.com>"
 # is updated with the current date. It will force refresh of all
 # of the base images and things like `apt-get update` won't be using
 # old cached versions when the Dockerfile is built.
-ENV REFRESHED_AT=2019-06-29 \
-  ELIXIR_VERSION=v1.9.0
+ENV REFRESHED_AT=2019-10-05 \
+  ELIXIR_VERSION=v1.9.1
 
 WORKDIR /tmp/elixir-build
 
